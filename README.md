@@ -1,5 +1,7 @@
 # dockerd-exporter
 
+[![Docker Image](https://images.microbadger.com/badges/image/stefanprodan/dockerd-exporter.svg)](https://hub.docker.com/r/stefanprodan/dockerd-exporter/)
+
 Prometheus Docker daemon metrics exporter
 
 ### Docker Engine 
