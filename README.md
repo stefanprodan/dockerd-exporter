@@ -24,7 +24,7 @@ ExecStart=/usr/bin/dockerd -H fd:// \
 Check if the docker_gwbridge ip address is `172.18.0.1`:
 
 ```bash
- ip -o addr show docker_gwbridge
+ docker run --rm --net host alpine ip -o addr show docker_gwbridge
 ```
 
 ### Docker Swarm 
